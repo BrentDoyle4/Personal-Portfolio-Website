@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+</head>
+<body>
+    <header class="header"> 
+        <a href="#" class="logo">Brent</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <div class="contact-container">
+            <h1>Contact Me</h1>
+            <p>Feel free to reach out via the form below or through my contact details.</p>
+            <form action="mailto:brentdoyle04@gmail.com" method="post" enctype="text/plain" class="contact-form">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-box">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-box">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="input-box">
+                    <input type="submit" value="Send Message">
+                </div>
+            </form>
+            <div class="contact-info">
+                <h2>Contact Info</h2>
+                <p><i class='bx bx-envelope'></i> Email: <a href="mailto:brentdoyle04@gmail.com">brentdoyle04@gmail.com</a></p>
+                <p><i class='bx bx-phone'></i> Phone: (530) 515-0653</p>
+                <div class="social-media">
+                    <h3>Connect with me</h3>
+                    <a href="https://www.facebook.com/brent.doyle.319/" target="_blank" rel="noreferrer"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://github.com/BrentDoyle4" target="_blank" rel="noreferrer"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/brent-doyle" target="_blank" rel="noreferrer"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
