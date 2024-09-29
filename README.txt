@@ -1,1 +1,1 @@
-This is for personal practice in creating a Personal Porfolio Website.
+A website for my portfolio. I created this to practice my skills in HTML and CSS.
